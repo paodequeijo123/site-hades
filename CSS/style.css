@@ -1,0 +1,53 @@
+*{list-style: none;}
+
+body{
+    background-image: url(../images/fundo.jpg);
+    background-attachment: fixed;
+    color: rgba(255, 255, 255, 0.775);
+    margin: 0%;
+}
+
+
+#cabeçalho{
+    width: 100%;
+    height: 10%;
+    background: rgba(29, 4, 31, 0.73);
+    display: flex;
+    justify-content:space-between;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Gemunu Libre,serif;
+}
+
+#catalogo{
+    color: #FFF;
+    font-size: 40px;
+    font-family: Gemunu Libre,serif;
+}
+
+#começo{
+    display: flex;
+    flex-direction: row;
+}
+
+#rolagem{
+    display: flex;
+}
+
+.roxo_transparente{
+    background: rgba(10, 2, 12, 0.80);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 200%;
+    margin: auto;
+}
+
+.preto{background: #000;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 200%;
+    margin: auto;}
